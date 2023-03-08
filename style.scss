@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
+
+body {
+    font-family: 'Jost', sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+p{
+    font-size: 20px;
+}
+
+ul{
+    padding-left: 0;
+    list-style: none;
+}
+
+#navbar{
+    background-color: #ffffff;
+    border-bottom: 2px dashed #67B4CA;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    .start_btn{
+        .btn{
+            background-color: #67B4CA;
+        }
+    }
+}
+#dateSet{
+    border: 1px solid #67B4CA;
+    margin: 15px 30px;
+    padding: 5px;
+    border-radius: 5px;
+    margin-top: 100px;
+}
+
+#first_section{
+    background-image: url('./images/header_bg.jpg');
+    background-position: center;
+    background-size: cover;
+    img{
+        width: 100%;
+    }
+    h1{
+        font-size: 50px;
+        font-weight: 600;
+        color: #67B4CA;
+    }
+    ul{
+        li{
+            h4{
+                font-weight: 600;
+                color: #67B4CA;
+            }
+            i{
+                color: #ff0000;
+            }
+        }
+    }
+}
+
+#second_section{
+    h2{
+        font-size: 40px;
+        font-weight: 600;
+        color: #67B4CA;
+    }
+    ul{
+        li{
+            font-size: 20px;
+            padding: 10px 0;
+            i{
+                color: #67B4CA;
+            }
+        }
+    }
+    h5{
+        color: #67B4CA;
+        font-weight: 600;
+    }
+}
+@media only screen and (min-width: 280) and (max-width: 428px) {
+    #second_section{
+        img{
+            width: 100%;
+        }
+    }
+}
+
+#third_section{
+    background-image: url("./images/header_bg.jpg");
+    h2{
+        font-size: 40px;
+        color: #67B4CA;
+        font-weight: 600;
+    }
+}
+
+#forth_section{
+    h2{
+        font-size: 40px;
+        color: #67B4CA;
+        font-weight: 600; 
+    }
+    #forth_middle{
+        width: 100%;
+    }
+    h5{
+        font-weight: 600;
+        color: #67B4CA;
+    }
+    .btn{
+        background-color: #67B4CA;
+        color: #ffffff;
+    }
+}
+
+#fifth_section{
+    h2{
+        font-size: 40px;
+        font-weight: 600;
+        color: #67B4CA;
+    }
+    .card{
+        border-radius: 15px;
+    }
+}
+
+#copywrite{
+    background-color: #67B4CA;
+    padding: 10px 0;
+    p{
+        color: #ffffff;
+    }
+}
